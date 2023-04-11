@@ -1,0 +1,279 @@
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+	#logo{
+		height: 200px;
+		width: auto;
+		border: none;
+		float: left;
+		cursor: pointer;
+		transition: 1s;
+	}
+	#logo:hover{
+		height: 210px;
+		width: auto;
+	}
+	canvas{
+		float: left;
+		cursor: pointer;
+		margin-top: 30px;
+		border: 2px solid #750c0c;
+		border-radius: 10px;
+		padding: 1%;
+		background-image: url("obsidian.jpg");
+		transition: 2s;
+		transform-style: preserve-3d;
+	}
+	canvas:hover{
+		animation: shake 1s infinite;
+	}
+	@keyframes shake{
+		0%{transform: rotateZ(0deg);}
+		50%{transform: rotateZ(10deg);}
+		75%{transform: rotateZ(-10deg);}
+	}
+	#aard{
+		transform: rotateZ(180deg);
+		width: 200px;
+		transition: 0.5s;
+	}
+	#aard:hover{
+		animation: none;
+		width: 220px;
+	}
+	#aksi{
+		width: 200px;
+		transition: 0.5s;
+	}
+	#aksi:hover{
+		animation: none;
+		width: 220px;
+	}
+	header{
+		height: 300px;
+		background-image: url('geralt.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: relative;
+		background-attachment: fixed;
+		border: 2px solid black;
+	}
+	body{
+		background: rgb(179,16,16);
+		background: linear-gradient(149deg, rgba(179,16,16,1) 11%, rgba(80,0,0,1) 46%, rgba(17,17,14,1) 84%);
+	}
+	div{
+		float: right;
+		border: 2px solid red;
+		background-color: #991a1a;
+	}
+	#box{
+		display: none;
+		height: 90%;
+		width: 30%;
+		margin-top: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	#box2{
+		display: none;
+		position: relative;
+		top: 10%;
+		right: 5%;
+		width: auto;
+		height: auto;
+		min-height: 50%;
+		min-width: 30%;
+		max-width: 50%;
+		border-radius: 20px 0px 20px 0px;
+	}
+	p{
+		color: white;
+		font-size: 24px;
+		line-height: 35px;
+		margin: 20px;
+		cursor: default;
+	}
+	img{
+		margin-top: 40px;
+		border: 2px solid white;
+		border-radius: 20px 0px 20px 0px;
+	}
+	@media only screen and (max-width: 1530px){
+		canvas{
+			margin-top: 5%;
+			height: 150px;
+			width: auto;
+		}
+		#aksi{
+			width: 150px;
+		}
+		#aksi:hover{
+			width: 160px;
+			height: auto;
+		}
+		#aard{
+			width: 150px;
+			height: auto;
+		}
+		#aard:hover{
+			width: 160px;
+			height: auto;
+		}
+		#logo{
+			height: 180px;
+			width: auto;
+		}
+		#gerwalt{
+			width: 1000px;
+			height: auto;
+		}
+		img{
+			width: 300px;
+			height: auto;
+		}
+	
+	}
+	@media only screen and (max-width: 1260px){
+		canvas{
+			margin-top: 5%;
+			height: 100px;
+			width: auto;
+		}
+		#aksi{
+			width: 100px;
+		}
+		#aksi:hover{
+			width: 110px;
+			height: auto;
+		}
+		#aard{
+			width: 100px;
+			height: auto;
+		}
+		#aard:hover{
+			width: 110px;
+			height: auto;
+		}
+		#logo{
+			height: 150px;
+			width: auto;
+		}
+		#logo:hover{
+			height: 160px;
+			width: auto;
+		}
+		#gerwalt{
+			width: 900px;
+			height: auto;
+		}
+		img{
+			width: 250px;
+			height: auto;
+		}
+	
+	}
+	@media only screen and (max-width: 1550px){
+		canvas{
+			margin-top: 5%;
+			height: 150px;
+			width: auto;
+		}
+		#aksi{
+			width: 150px;
+		}
+		#aksi:hover{
+			width: 160px;
+			height: auto;
+		}
+		#aard{
+			width: 150px;
+			height: auto;
+		}
+		#aard:hover{
+			width: 160px;
+			height: auto;
+		}
+		#logo{
+			height: 150px;
+			width: auto;
+		}
+		#logo:hover{
+			height: 160px;
+			width: auto;
+		}
+		#gerwalt{
+			width: 900px;
+			height: auto;
+		}
+		img{
+			width: 250px;
+			height: auto;
+		}
+	
+	}
+	@media only screen and (max-width: 890px){
+		canvas{
+			margin-top: 5%;
+			height: 80px;
+			width: auto;
+		}
+		#aksi{
+			width: 80px;
+		}
+		#aksi:hover{
+			width: 90px;
+			height: auto;
+		}
+		#aard{
+			width: 80px;
+			height: auto;
+		}
+		#aard:hover{
+			width: 90px;
+			height: auto;
+		}
+		img{
+			width: 200px;
+			height: auto;
+		}
+	}
+	@media only screen and (max-width: 700px){
+		canvas{
+			margin-top: 5%;
+			height: 40px;
+			width: auto;
+		}
+		#aksi{
+			width: 40px;
+		}
+		#aksi:hover{
+			width: 50px;
+			height: auto;
+		}
+		#aard{
+			width: 40px;
+			height: auto;
+		}
+		#aard:hover{
+			width: 50px;
+			height: auto;
+		}
+		img{
+			width: 100px;
+			height: auto;
+		}
+		#logo{
+			height: 90px;
+			width: auto;
+		}
+		#logo:hover{
+			height: 100px;
+			width: auto;
+		}
+		#gerwalt{
+			height: 150px;
+			width: auto;
+		}
+	}

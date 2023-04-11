@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="icon" href="Source/icon.ico">
+	<link rel="stylesheet" type="text/css" href="Source/style.css">
+	<title>Runy</title>
+	<audio id="theme" autoplay loop preload>
+		<source src="Source/berserk.mp3" type="audio/mp3">
+	</audio>
+</head>
+<body>
+<header>
+	<img src="Source/thewitcher.png" onclick="off()" id="logo" alt="wiesiek">
+	<script>
+	function off(){
+		document.getElementById("box").style.display="none";
+		document.getElementById("box2").style.display="none";
+		var theme = document.getElementById("theme").volume=0.1;
+		document.getElementById("theme").play();
+		document.getElementById("gerwalt").style.display="block";
+	}
+	</script>
+<center>
+	<canvas id="igni" width="200px" height="200px"></canvas>
+		<script src="Source/igni.js"></script>
+	<canvas id="aksi" width="200px" height="200px"></canvas>
+		<script src="Source/aksi.js"></script>
+	<canvas id="quen" width="200px" height="200px"></canvas>
+		<script src="Source/quen.js"></script>
+	<canvas id="aard" width="200px" height="200px"></canvas>
+		<script src="Source/aard.js"></script>
+	<canvas id="yrden" width="200px" height="200px"></canvas>
+		<script src="Source/yrden.js"></script>
+</center>
+</header>
+
+<div id="box">
+<center id="ob"></center>
+<center id="gif"></center>
+</div>
+<center><img src="Source/gerwalt.jpg" id="gerwalt" alt="gerwalt_smile"></center>
+<div id="box2">
+</div>
+
+</body>
+</html>
